@@ -1,0 +1,224 @@
+.contatos-container {
+    width: 100%;
+    height: 100vh;
+}
+
+.menu-cantainer {
+    width: 100%;
+    height:90% ;
+    background-image: url('../../assets/contatos/c409beaa-69c6-404f-9d32-41ae2acb73b6.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.h1 {
+    margin-top: 100px;
+    font-size: 40px;
+    color: #DC143C;
+}
+
+.sociais-media{ 
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.icons-container {
+    width: 30%;
+    height: 90%;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+    
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.span {
+    display: none;
+}
+
+.contatos-footer {
+    margin-top: 0;
+    width: 100%;
+    height: 30%;
+    background-color: black;
+}
+
+.logo-footer {
+    margin-top: 0;
+    width: 80px;
+    height: 80px;
+    background-color: #DC143C;
+}
+
+.contato-footer-navigation {
+    display: none;
+}
+
+
+.footer-span {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-img{
+    width: 100%;
+    height: 100px;
+    background-image: url('../../assets/Batman\ wallpapers\ for\ iPhone\ in\ 2024\ \(Free\ download\).jpg');
+    background-position: 50% 50%;
+}
+
+i {
+    display: flex;
+    align-items: center;
+}
+.icons {
+   transition: 2s;
+}
+
+.icons3 {
+    transition: 2s;
+ }
+
+.icons:hover {
+    background-color: aqua;
+    width: 80%;
+    border-radius: 40px 40px 40px 40px;
+}
+
+.icons3:hover {
+    background-color: aqua;
+    width: 100%;
+    border-radius: 40px 40px 40px 40px;
+}
+
+.icons:hover .span{
+    display: flex;
+    margin-left: 10px;
+}
+
+
+.icons3:hover .span{
+    display: flex;
+    margin-left: 10px;
+}
+
+
+@media (max-width: 1200px) {
+    .icons:hover {
+        background-color: aqua;
+        width: 200px;
+        border-radius: 40px 40px 40px 40px;
+    }
+    
+    .icons3:hover {
+        background-color: aqua;
+        width: 250px;
+        border-radius: 40px 40px 40px 40px;
+    }
+}
+
+@media (max-width: 768px) { 
+    header{
+      display: none;
+    }
+
+    .icons {
+        transition: 2s;
+     }
+     
+     .icons3 {
+         transition: 2s;
+      }
+  
+    .icons:hover {
+        background-color: aqua;
+        width: 200px;
+        border-radius: 40px 40px 40px 40px;
+    }
+    
+    .icons3:hover {
+        background-color: aqua;
+        width: 250px;
+        border-radius: 40px 40px 40px 40px;
+    }
+    
+    .icons:hover .span{
+        display: flex;
+        margin-left: 10px;
+    }
+    
+    
+    .icons3:hover .span{
+        display: flex;
+        margin-left: 10px;
+    }
+  
+    li {
+      color: #fff;
+      font-family: 'Kdam_Thmor_Pro' sans-serif;
+    }
+  
+    .contatos-footer {
+      width: 100%;
+    }
+  
+    .footer-img {
+      display: none;
+    }
+  
+    .contato-footer-navigation {
+      display: flex;
+      width: 100%;
+    }
+  
+    .ul-contatos-footer {
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+  }
+  
+    
+}
+
+@media (max-width: 415px) {
+
+    .icons-container {
+        margin-top: 20px;   
+    }
+    .contato-footer-navigation {
+        display: flex;
+        width: 100%;
+      }
+    
+      .ul-contatos-footer {
+          width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
+
+
+
+
+
+
+
